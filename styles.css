@@ -3,14 +3,28 @@
   padding: 0;
   border: 0;
   font-family: 'Roboto', sans-serif;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main-container {
+  padding: 0 15%;
 }
 
 /* ---------------- HEADER ---------------- */
 
+header a {
+  color: #797979;
+}
+
 .login {
   background-color: #f7f4f1;
+  font-weight: 700;
   text-align: right;
-  padding: 5px;
+  padding: 5px 20px 5px 5px;
 }
 
 .free-quote {
@@ -18,7 +32,7 @@
 }
 
 .navbar-container {
-  margin: 50px 10px;
+  margin: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +45,24 @@
 }
 
 .fas {
-  margin-right: 5px;
+  margin-right: 15px;
+}
+
+.fas.fa-shield-alt {
+  color: green;
+}
+
+.fas.fa-video {
+  color: blue;
+}
+
+.fas.fa-home {
+  color: red;
+}
+
+.fas.fa-chevron-down,
+.fas.fa-search {
+  margin-left: 15px; 
 }
 
 .not-bold {
@@ -45,7 +76,8 @@ nav {
 
 nav li {
   display: inline;
-  margin-right: 10px;
+  margin-right: 15px;
+  color: #666;
 }
 
 .phone-bubble {
@@ -63,6 +95,10 @@ nav li {
   padding: 100px 50px;
 }
 
+.hero .content .left {
+  color: white;
+}
+
 .hero .content .left button {
   color: white;
   background-color: #ff8200;
@@ -71,12 +107,111 @@ nav li {
   display: block;
 }
 
+
+
+
+.image-strip {
+  display: flex;
+}
+
+.image-background {
+  background-image: url("./images/vivint-pro.png");
+  width: 66%;
+}
+
+.gray-background {
+  width: 34%;
+  color: white;
+  background-color: #666;
+  padding: 100px 20px;
+}
+
 /* ---------------- FOOTER ---------------- */
 
 .footer-top {
   background-color: #eee;
+  padding: 40px 0 60px;
+  color: #666;
+}
+
+.footer-top p {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.footer-navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-navigation li {
+  margin: 8px 0;
+}
+
+.invisible {
+  color: #eee;
+}
+
+.button-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.footer-button {
+  background-color: #eee;
+  color: #444;
+  border: 1px solid #666;
+  font-size: 16px;
+  padding: 15px 50px;
+}
+
+.footer-button:hover {
+  color: white;
+  background-color: #666;
+}
+
+.social-media-icons {
+  display: flex; 
+  justify-content: center;
+}
+
+.icon-circle {
+  width: 35px;
+  height: 35px;
+  background-color: #aaaaaa;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  margin: 0 8px;
+}
+
+.fab.fa-facebook-f,
+.fab.fa-twitter,
+.fab.fa-youtube,
+.fab.fa-instagram,
+.fab.fa-pinterest-p,
+.fab.fa-linkedin-in {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
 }
 
 .footer-bottom {
   background-color: #aaaaaa;
+  text-align: center;
+  padding: 50px 0 30px;
+  font-size: 13px;
+  color: #444;
+}
+
+.footer-nav {
+  color: white;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin: 30px 5px 20px;
 }
