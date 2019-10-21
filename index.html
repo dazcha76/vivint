@@ -3,8 +3,11 @@
   <head>
     <title>Vivint</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="main.js"></script>
   </head>
   <body>
     <header>
@@ -20,8 +23,8 @@
             <li>Products<i class="fas fa-chevron-down"></i></li>
             <li>How to Buy</li>
             <li><i class="fas fa-search"></i></li>
-            <li class="phone-bubble"><i class="fas fa-phone fa-flip-horizontal"></i>855.399.7093</li>
           </ul>
+          <li class="phone-bubble"><i class="fas fa-phone fa-flip-horizontal"></i>866.362.9664</li>
         </nav>
       </div> 
     </header>
@@ -30,23 +33,82 @@
       <div class="main-container">
         <div class="left">
           <p>Big Orange Sale</p>
-          <h1>Free System Installation*</h1>
+          <h1>Free System<br>Installation*</h1>
           <p><i class="fas fa-check"></i>Customize system</p>
           <p><i class="fas fa-check"></i>24/7 monitoring and support</p>
           <p><i class="fas fa-check"></i>One easy-to-use app</p>
-          <button><i class="fas fa-phone"></i>Call 855.399.7093</button>
+          <button><i class="fas fa-phone"></i>Call 866.362.9664</button>
           <a href="#">*offer details</a>
         </div>
-        <div class="right"></div>
+        <div class="right">
+          <img src="./images/hero-image.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-section">
+      <div class="slider main-container">
+        <div class="slider-container">
+          <h1>“You don’t have to lift a finger;<br>Vivint technicians come to your<br>house and install everything.”</h1>
+          <img src="./images/pc-big.png" class="pc-big">
+        </div>
+        <div class="slider-container">
+          <h1>“Vivint Smart Home is opening<br>the door to the connected home<br>of the future.”</h1>
+          <img src="./images/fast-co-big.png" class="fast-co-big">
+        </div>
+        <div class="slider-container forbes">
+          <h1>“A one-stop-shop to building a<br>smart home.”</h1>
+          <img src="./images/forbes-big.png">
+        </div>
+        <div class="slider-container tech-crunch">
+          <h1>“Like good technology, the<br>experience is magical.”</h1>
+          <img src="./images/tech-crunch-big.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-buttons">
+      <div>
+        <img src="./images/pc-red.png">
+      </div>
+      <div class="smaller-image">
+        <img src="./images/fast-co.png">
+      </div>
+      <div class="smaller-image">
+        <img src="./images/forbes.png">
+      </div>
+      <div class="smaller-image">
+        <img src="./images/tech-crunch.png">
+      </div>
+    </div>
+
+    <div class="three-ways">
+      <div class="main-container">
+        <div class="three-way-text">
+          <h1>Three ways to<br>control your home</h1>
+          <p>Easily manage your smart home<br>from anywhere</p>
+        </div>
+        <div class="three-way-image">
+          <img src="./images/three-ways.png">
+        </div>
       </div>
     </div>
 
     <div class="image-strip">
       <div class="image-background"></div>
       <div class="gray-background">
-        <h2>Professional Installation</h2>
-        <p>Our Smart Home Pros will help customize and professionally install your package</p>
+        <h1>Professional<br>Installation</h1>
+        <p>Our Smart Home Pros will help<br>
+           customize and professionally<br> 
+          install your package</p>
       </div>
+    </div>
+
+    <div class="image-strip-mobile">
+      <h1>Professional<br>Installation</h1>
+      <p>Our Smart Home Pros will help<br>
+         customize and professionally<br> 
+        install your package</p>
     </div>
 
     <footer>
@@ -124,5 +186,6 @@
         </ul>
       </div>
     </footer>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
   </body>
 </html>
