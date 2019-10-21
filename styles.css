@@ -173,6 +173,10 @@ nav li {
   font-size: 13px;
 }
 
+sup {
+  font-size: 16px;
+}
+
 @media screen and (max-width: 800px){
   .hero .main-container {
     flex-direction: column;
